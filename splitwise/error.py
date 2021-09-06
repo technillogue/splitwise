@@ -19,3 +19,6 @@ class SplitwiseError(object):
             :obj:`json`: JSON error object
         """
         return self.errors
+
+    def __repr__(self) -> str:
+        return repr(self.errors)
